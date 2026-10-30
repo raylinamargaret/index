@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f9f9f9;
+}
+
+h1 {
+    color: #333;
+}
+
+ol.list-makanan {
+    background-color: #ffe5e5;
+    padding: 20px 20px 20px 40px;
+    border-radius: 8px;
+}
+
+ol.list-makanan li {
+    background: #ffffff;
+    color: darkred;
+    padding: 8px;
+    margin: 5px 0;
+    border-radius: 4px;
+}
+
+ul.list-minuman {
+    background-color: #cce5ff;
+    padding: 20px 20px 20px 40px;
+    border-radius: 8px;
+    list-style-type: square;
+}
+
+ul.list-minuman li {
+    background: #ffffff;
+    color: darkblue;
+    padding: 8px;
+    margin: 5px 0;
+    border-radius: 4px;
+}
+
+i.fas {
+    margin-right: 8px;
+    color: #d9534f;
+}

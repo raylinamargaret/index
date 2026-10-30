@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    table {
+      border-collapse: collapse;
+      width: 100%;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+    }
+
+    th, td {
+      padding: 12px 15px;
+      text-align: center;
+    }
+
+    th {
+      background-color: #ffb6c1;
+      color: #4a4a4a;
+      font-size: 15px;
+      letter-spacing: 0.5px;
+    }
+
+    tr:nth-child(even) {
+      background-color: #fff0f5;
+    }
+
+    tr:nth-child(odd) {
+      background-color: #ffffff;
+    }
+
+    tr:hover {
+      background-color: #ffe4e1;
+      transition: background-color 0.3s ease;
+    }
+
+    td {
+      border-bottom: 1px solid #f0e6ed;
+      color: #555555;
+    }
+  </style>
+</head>
+<body>
+
+  <h2 style="font-family: 'Segoe UI', sans-serif; background: linear-gradient(45deg, #ff758c, #ff7eb3); -webkit-background-clip: text; -webkit-text-fill-color: transparent; text-align: center; font-size: 28px; font-weight: bold;">Daftar Nilai Siswa</h2>
+
+  <div style="overflow-x: auto;">
+    <table>
+      <tr>
+        <th>No.</th>
+        <th>Nama Lengkap</th>
+        <th>Kelas</th>
+        <th>Nilai</th>
+      </tr>
+      <tr>
+        <td>1</td>
+        <td>Ray</td>
+        <td>9-2</td>
+        <td>95</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>Christa</td>
+        <td>9-4</td>
+        <td>92</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>Jessy</td>
+        <td>9-1</td>
+        <td>98</td>
+      </tr>
+      <tr>
+        <td>4</td>
+        <td>Clara</td>
+        <td>9-2</td>
+        <td>90</td>
+      </tr>
+      <tr>
+        <td>5</td>
+        <td>Joanne</td>
+        <td>9-1</td>
+        <td>94</td>
+      </tr>
+      <tr>
+        <td>6</td>
+        <td>Gwen</td>
+        <td>9-5</td>
+        <td>91</td>
+      </tr>
+      <tr>
+        <td>7</td>
+        <td>Gaby</td>
+        <td>9-2</td>
+        <td>89</td>
+      </tr>
+      <tr>
+        <td>8</td>
+        <td>Viola</td>
+        <td>9-2</td>
+        <td>93</td>
+      </tr>
+      <tr>
+        <td>9</td>
+        <td>Agnes</td>
+        <td>9-2</td>
+        <td>96</td>
+      </tr>
+      <tr>
+        <td>10</td>
+        <td>Michelle</td>
+        <td>9-3</td>
+        <td>90</td>
+      </tr>
+    </table>
+  </div>
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    table {
+      border-collapse: collapse;
+      width: 100%;
+      max-width: 800px;
+      margin: 20px auto;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #fbf9f1;
+    }
+
+    td {
+      border: 2px solid #333;
+      text-align: center;
+      vertical-align: middle;
+      font-weight: bold;
+      font-size: 18px;
+      height: 50px;
+      color: #333;
+    }
+
+    .cell-a { background-color: #ffecd2; }
+    .cell-b { background-color: #fcb69f; }
+    .cell-c { background-color: #a1c4fd; }
+    .cell-d { background-color: #c2e9fb; }
+    .cell-e { background-color: #d4fc79; }
+    .cell-f { background-color: #96e6a1; }
+    .cell-g { background-color: #fccb90; }
+    .cell-h { background-color: #e2b0ff; }
+    .cell-i { background-color: #ff9a9e; }
+    .cell-j { background-color: #fecfef; }
+    .cell-k { background-color: #a8edea; }
+    .cell-m { background-color: #fed6e3; }
+    .cell-n { background-color: #e0c3fc; }
+    .cell-o { background-color: #8ec5fc; }
+    .cell-p { background-color: #ffd1ff; }
+    .cell-q { background-color: #c2ffd8; }
+    .cell-r { background-color: #fdcbf1; }
+    .cell-u { background-color: #e6dee9; }
+    .cell-v { background-color: #fff1eb; }
+    .cell-w { background-color: #ace0f9; }
+  </style>
+</head>
+<body>
+
+  <h2 style="text-align: center; color: #444; font-family: sans-serif;">Table Merge</h2>
+
+  <table>
+    <tr>
+      <td rowspan="2" colspan="2" class="cell-a">A</td>
+      <td colspan="2" class="cell-b">B</td>
+      <td colspan="3" class="cell-c">C</td>
+      <td rowspan="3" class="cell-d">D</td>
+      <td rowspan="2" colspan="2" class="cell-e">E</td>
+    </tr>
+    <tr>
+      <td colspan="2" class="cell-f">F</td>
+      <td colspan="3" class="cell-g">G</td>
+    </tr>
+    <tr>
+      <td rowspan="2" class="cell-h">H</td>
+      <td colspan="3" class="cell-i">I</td>
+      <td colspan="3" class="cell-j">J</td>
+      <td colspan="2" class="cell-k">K</td>
+    </tr>
+    <tr>
+      <td colspan="4" class="cell-m">M</td>
+      <td colspan="4" class="cell-n">N</td>
+      <td rowspan="2" class="cell-o">O</td>
+    </tr>
+    <tr>
+      <td colspan="2" class="cell-p">P</td>
+      <td colspan="3" class="cell-q">Q</td>
+      <td colspan="3" class="cell-r">R</td>
+    </tr>
+    <tr>
+      <td colspan="4" class="cell-u">U</td>
+      <td colspan="3" class="cell-v">V</td>
+      <td colspan="3" class="cell-w">W</td>
+    </tr>
+  </table>
+
+</body>
+</html>
